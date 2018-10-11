@@ -1,1 +1,2 @@
 default: -p pretty
+pretty: --format pretty
