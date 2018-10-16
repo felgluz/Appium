@@ -8,7 +8,8 @@ def caps
         app: (File.join(File.dirname(__FILE__), "base.apk")),
         appPackage: "com.root.cobasi.Activities",
         appActivity: "br.com.mobfiq.store.MainActivity",
-        newCommandTimeout: "3600"
+        newCommandTimeout: "3600",
+        autoGrantPermissions: "true"
     }}
 end
 
